@@ -1,3 +1,15 @@
+EDIT:
+
+Per @parrot's suggestion on Twitter: https://twitter.com/parrots/status/618812908512931840 , attempted to include the pod without wrapping in target.  This resulted in:
+- Pods/Target Support Files/Pods/Pods.debug.xcconfig
+- Pods/Target Support Files/Pods/Pods.release.xcconfig
+- Pods/Target Support Files/Pods/Pods.snapshot.xcconfig
+
+all including the SimulatorStatusMagic, despite being specified as just for the 'Snapshot' configuration.
+
+
+-------
+
 # CocoaPodConfiguration
 Trying to diagnose how to use the ":configurations => ['Snapshot']" 
 
